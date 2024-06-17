@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %} 
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/Aryn.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="200px" height="100px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold satisfy-regular">Hello,</h1>
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent: 100px;">I am <b class="text-warning">Aryan Gupta</b> having 3 months of full-stack web development experience for global businesses, I offer the technical expertise you are seeking for your web developer position.</p>
+            <p>Since earning my bachelor's degree in internet and web development from Noida Institute of Engineering and Technology, Gr. Noida, I have served as an AI/ML developer at <b class="text-warning">TechWagger Solution PVT LTD</b>. I am a dedicated and innovative AI/ML Developer with over 6 months of experience in designing, developing, and deploying cutting-edge machine learning models and AI solutions. With a robust background in computer science and a passion for artificial intelligence, I excel at transforming complex data into actionable insights and developing intelligent systems that drive business efficiency and growth.</p>
+            <p>My expertise spans across various domains including natural language processing (NLP), computer vision, predictive analytics, and deep learning. I am proficient in programming languages such as Python and R, and have extensive experience with machine learning frameworks like TensorFlow, PyTorch, and scikit-learn. My strong analytical skills, combined with a thorough understanding of data preprocessing, feature engineering, and model evaluation, enable me to deliver high-performance AI solutions tailored to specific business needs.</p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mx-3">Hire Me</a>
+    <a href="" class="btn btn-outline-info my-3 mx-3">Contact</a>
+    </div>
+</div>
+{% endblock %}
