@@ -1,16 +1,28 @@
+/* style.css */
+.i-color {
+    color: chartreuse;
+}
+
+/* Other CSS rules */
 .text-justify {
     text-align: justify;
-    }
+}
 
 .satisfy-regular {
     font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
-    }
+}
+
 html, body {
     height: 100% !important;
 }
-    
+
 .container-fluid {
     min-height: 100% !important;
 }
+
+.ss-color {
+    color: silver;
+}
+

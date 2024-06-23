@@ -18,8 +18,11 @@ from django.contrib import admin
 from django.urls import path
 from core.views import *
 from services.views import *
+from edu.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home,name='home'),
-    path('services/',services,name='services')
+    path('services/',services,name='services'),
+    path('skill/',skill,name='skill'),
+    path('contact/',contact,name='contact'),
 ]
